@@ -1,0 +1,17 @@
+@import "./theme.scss";
+
+.btn {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  &-brand {
+    background: var(--bs-pink);
+    color: var(--bs-white);
+    &:hover {
+      color: var(--bs-pink);
+      background: var(--bs-white);
+      border: 1px solid var(--bs-pink);
+    }
+  }
+}
